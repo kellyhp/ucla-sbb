@@ -9,7 +9,7 @@ const About = () => {
             <div className="w-full lg:w-1/2 flex lg:justify-end justify-center">
                 <img
                 src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM="
-                className="max-w-sm rounded-lg shadow-2xl" />
+                className="max-w-64 rounded-lg shadow-2xl" />
             </div>
                 <div className='w-full lg:w-1/2 md:mt-0 mt-8 md:text-left text-center'>
                 <h1 className="md:text-4xl text-2xl font-bold">Our Story </h1>
@@ -30,7 +30,7 @@ const About = () => {
             <div className="w-full lg:w-1/2 flex lg:justify-start justify-center">
                 <img
                 src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM="
-                className="max-w-sm rounded-lg shadow-2xl" />
+                className="max-w-64 rounded-lg shadow-2xl" />
             </div>
             <div className='w-full lg:w-1/2 md:mt-0 mt-8 md:text-left text-center'>
             <h1 className="md:text-4xl text-2xl font-bold">Our Mission</h1>

@@ -1,7 +1,7 @@
 const ProgramSection = () => {
     return (
       <div className="container mx-auto px-6 py-12">
-        <h2 className="text-3xl font-bold mb-6">Programs</h2>
+        <h2 className="md:text-4xl text-2xl font-bold mb-6">Lorem Ipsum is simply</h2>
         <div className="bg-gray-100 rounded-lg h-64 flex items-center justify-center my-5">
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

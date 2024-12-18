@@ -6,13 +6,13 @@ const Contact = () => {
         <img
           src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM="
           alt="Map placeholder"
-          className="rounded-lg w-full h-full object-cover"
+          className="rounded-lg w-full h-full object-cover max-w-64"
         />
       </div>
 
       {/* Form Section */}
       <div className="order-2 md:order-1">
-        <h2 className="text-xl font-bold mb-4">Contact us</h2>
+        <h2 className="md:text-4xl text-2xl font-bold mb-4">Contact us</h2>
         <p className="text-gray-500 mb-6">
           Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
         </p>
@@ -33,7 +33,7 @@ const Contact = () => {
           ></textarea>
           <button
             type="submit"
-            className="bg-black text-white px-4 py-2 rounded-full max-w-[160px]">
+            className="btn text-white px-4 py-2 rounded-full max-w-[160px]">
             Send Request
           </button>
         </form>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
             <div className="w-full lg:w-1/2 flex lg:justify-end justify-center">
                 <img
                 src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM="
-                className="max-w-sm rounded-lg shadow-2xl" />
+                className="max-w-64 rounded-lg shadow-2xl md:w-full md:h-full" />
             </div>
             <div className="w-full lg:w-1/2 text-center lg:text-left md:mt-0 mt-8">
             <h1 className="md:text-5xl text-3xl font-bold">Lorem Ipsum simply </h1>
@@ -32,7 +33,7 @@ const Hero = () => {
                     </svg>
                 </a>
             </div>
-            <button className="btn rounded-full">Learn More</button>
+            <Link href="/about" className="btn rounded-full text-white ">Learn More</Link>
             </div>
         </div>
     </div>

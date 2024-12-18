@@ -18,9 +18,8 @@ export default function Footer() {
         </svg>
         <Link href="/">
           UCLA SBB
-          <br />
-          Smile More :D
         </Link>
+        <p>By Kelly Phan 🦦 with 💚</p>
       </aside>
     </div>
     <div>

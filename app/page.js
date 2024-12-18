@@ -11,6 +11,7 @@ export default function Home() {
       <Hero />
       <ThreeImage />
       <CardList />
+      <ProgramSection />
       <Contact />
     </div>
   );
