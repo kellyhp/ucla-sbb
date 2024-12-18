@@ -24,10 +24,6 @@ export default function Footer() {
     </div>
     <div>
       <h6 className="footer-title">Get in Touch</h6>
-      <p>
-        123 Main Street, Suite 500<br />
-        City, State, ZIP Code
-      </p>
       <a href="mailto:sbbatucla@gmail.com" className="link link-hover">sbbatucla@gmail.com</a>
     </div>
     <div> 

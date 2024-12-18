@@ -6,13 +6,13 @@ const ProgramSection = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-gray-100 p-6 rounded-lg text-center">
-            <h3 className="text-lg font-semibold">Lorem Ipsum is simply dummy</h3>
+            <h3 className="text-lg font-semibold">Events</h3>
             <p className="text-gray-600 mt-2">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
             </p>
           </div>
           <div className="bg-gray-100 p-6 rounded-lg text-center">
-            <h3 className="text-lg font-semibold">Lorem Ipsum is simply dummy</h3>
+            <h3 className="text-lg font-semibold">Requirements</h3>
             <p className="text-gray-600 mt-2">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
             </p>
