@@ -1,6 +1,25 @@
+@import url(https://api.fontshare.com/v2/css?f[]=synonym@400&f[]=amulya@700&f[]=plus-jakarta-sans@400&f[]=zodiak@700&f[]=ranade@300&f[]=excon@500&display=swap);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .font-synonym {
+    font-family: 'Synonym', sans-serif;
+  }
+  .font-amulya {
+    font-family: 'Amulya', sans-serif;
+  }
+  .font-zodiac {
+    font-family: 'Zodiak', serif;
+  }
+  .font-jakarta {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  .font-ranade {
+    font-family: 'Ranade', sans-serif;
+  }
+}
 
 :root {
   --background: #FFFCFF;
@@ -8,10 +27,20 @@
   --khaki: #C3B299;
   --blue: #247BA0;
   --red: #BF211E;
+  --pink: #FFC2D1;
+  --light-pink: #FEF6F6;
+}
 
+h1, h2, h3, h4 {
+  @apply font-zodiac;
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--light-pink);
+  @apply font-ranade;
+}
+
+p {
+  @apply font-jakarta;
 }

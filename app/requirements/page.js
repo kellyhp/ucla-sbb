@@ -2,7 +2,7 @@ export default function RequirementsPage() {
     return (
       <div className="container mx-auto px-6 pb-10 pt-20">
         {/* Title */}
-        <h1 className="md:text-5xl text-3xl font-bold text-center mb-6">Membership Requirements</h1>
+        <h1 className="md:text-5xl text-3xl font-bold text-center mb-4">Membership Requirements</h1>
   
         {/* Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-5">

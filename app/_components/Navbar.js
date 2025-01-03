@@ -1,6 +1,8 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../../public/_images/logo/logo.jpeg";
 
 export default function Navbar() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -110,8 +112,13 @@ export default function Navbar() {
             </ul>
           )}
         </div>
-        <Link href="/" className="p-2 text-xl font-bold">
-          UCLA SBB
+        {/* Logo Image */}
+        <Link href="/">
+          <Image
+            src={logo}
+            alt="UCLA SBB Logo"
+            className="rounded-full w-[200px] h-[100px] object-cover"
+          />
         </Link>
       </div>
 
@@ -138,7 +145,10 @@ export default function Navbar() {
               <summary>Programs</summary>
               <ul className="p-2 bg-white shadow-md absolute mt-2 z-50">
                 <li>
-                  <a>8 Hour Infectious<br /> Disease Certification</a>
+                  <a>
+                    8 Hour Infectious
+                    <br /> Disease Certification
+                  </a>
                 </li>
                 <li>
                   <a>X-Ray Certification</a>
@@ -162,3 +172,4 @@ export default function Navbar() {
     </div>
   );
 }
+

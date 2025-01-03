@@ -43,7 +43,7 @@ export default function OfficersPage() {
         {/* Title */}
         <h1 className="md:text-5xl text-3xl font-bold text-center mb-4">Officers</h1>
         <p className="text-center text-gray-500 mb-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate fames ut.
+          Meet the team!
         </p>
   
         {/* Officers Grid */}

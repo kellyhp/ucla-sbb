@@ -10,6 +10,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        pink: "#F7C5C5",
+      },
+      fontFamily: {
+        synonym: ['"Synonym"', "sans-serif"],
+        amulya: ['"Amulya"', "sans-serif"],
+        zodiac: ['Zodiak', 'serif'],
+        jakarta: ['Plus Jakarta Sans', 'sans-serif'],
+        ranade: ['Ranade', 'sans-serif'],
       },
     },
   },
